@@ -133,7 +133,7 @@ public class Main {
 				break;
 			case"08":
 				if(reg[estrn(ram [i + 1])] == "ff") {
-					i = htd(ram [i + 2]) - 3;
+					i = htd(reg[estrn(ram [i + 2])]) - 3;
 				}
 				break;
 			case"09":
