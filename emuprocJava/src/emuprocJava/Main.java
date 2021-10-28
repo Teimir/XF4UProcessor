@@ -129,7 +129,7 @@ public class Main {
 				reg[estrn(ram [i + 2])] = dth(htd(reg[estrn(ram [i + 1])]) / htd(reg[estrn(ram [i + 2])]));
 				break;
 			case"07":
-				i = htd(ram [i + 1]) - 3;
+				i = htd(reg[estrn(ram [i + 2])]) - 3;
 				break;
 			case"08":
 				if(reg[estrn(ram [i + 1])] == "ff") {
