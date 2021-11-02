@@ -1,4 +1,0 @@
-regload 01 1e
-vmemload 01 00
-vmout
-end
